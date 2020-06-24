@@ -42,7 +42,7 @@ public class ReadDataActivity extends AppCompatActivity {
         daftarPengeluaran.addAll(Arrays.asList(database.pengeluaranDAO().readDataPengeluaran()));
 
         //Agar ukuran RecyclerView tidak berubah
-       // recyclerview.requestFocus();
+       //recyclerview.requestFocus();
         recyclerview = findViewById(R.id.dataItem);
 
        recyclerview.setHasFixedSize(true);

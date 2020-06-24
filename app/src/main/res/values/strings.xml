@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Money</string>
     <string name="action_settings">Settings</string>
+    <string name="alarm_off">alarm_off</string>
+    <string name="alarm_on">alarm_on</string>
+    <string name="notification_title">Kamu dapat notifikasi!</string>
+    <string name="notification_text">Data kamu sudah masuk</string>
+    <string name="update">Update Notification</string>
+    <string name="notification_updated">Notification Updated!</string>
+    <string name="notification_channel_name">Mascot Notification</string>
+    <string name="notification_channel_description">Notification from Mascot</string>
+
 </resources>

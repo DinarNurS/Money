@@ -1,5 +1,6 @@
 package com.dinarns.money;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -24,4 +25,7 @@ public interface PengeluaranDAO {
 
     @Query("SELECT * FROM tPengeluaran WHERE id = :Id LIMIT 1")
     pengeluaran selectDetailPengeluaran(String Id);
+
+  //  @Query("SELECT COALESCE(sum(COALESCE(Jumlah,0)), 0) From tPengeluaran")
+    //LiveData<Double> getTotal();
 }
